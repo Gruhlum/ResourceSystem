@@ -5,7 +5,7 @@ using UnityEngine;
 
 namespace HexTecGames.ResourceSystem
 {
-    [CreateAssetMenu(menuName = "HexTecGames/PackageTest/ResourceType")]
+    [CreateAssetMenu(menuName = "HexTecGames/Resources/ResourceType")]
     public class ResourceType : DisplayableObject
     {
         public override string ToString()

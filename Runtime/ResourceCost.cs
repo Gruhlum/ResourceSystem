@@ -59,7 +59,7 @@ namespace HexTecGames.ResourceSystem
 
         public override string ToString()
         {
-            return $"{value.ToString(type.DisplayFormat)}";
+            return $"{value}";
         }
     }
 }

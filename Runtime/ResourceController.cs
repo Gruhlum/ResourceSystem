@@ -34,5 +34,12 @@ namespace HexTecGames.ResourceSystem
             result.ChangeValue(amount);
             //Debug.Log($"Increase Resource {type} by {amount}");
         }
+        public void IncreaseAllResources(int amount)
+        {
+            foreach (var resource in resources)
+            {
+                resource.ChangeValue(amount);
+            }
+        }
     }
 }

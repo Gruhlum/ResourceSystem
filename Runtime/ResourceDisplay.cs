@@ -12,6 +12,7 @@ namespace HexTecGames.ResourceSystem
         [SerializeField] private DisplayableDisplay display;
         [SerializeField] private TMP_Text textGUI;
         [SerializeField] private ResourceType resourceType = default;
+        [SerializeField] private string format = default;
 
         private Resource resource;
 
@@ -34,7 +35,7 @@ namespace HexTecGames.ResourceSystem
 
         private void UpdateValueText(int val)
         {
-            textGUI.text = val.ToString(resourceType.DisplayFormat);
+            textGUI.text = val.ToString(format);
         }
 
         private void Resource_OnValueChanged(int val)
