@@ -2,13 +2,11 @@
   "name": "com.hextecgames.resourcesystem",
   "version": "1.0.0",
   "displayName": "ResourceSystem",
-  "description": "My Package",
   "unity": "2019.1",
-  "dependencies": {},
   "author": {
     "name": "HexTecGames"
   },
-  "hideInEditor": "false",
+  "hideInEditor": false,
   "samples": [
     {
       "displayName": "Example 1",
